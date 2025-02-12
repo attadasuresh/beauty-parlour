@@ -10,14 +10,6 @@ const Contact = () => {
       <h1 className="contact-title">Contact Us</h1>
       
       <div className="contact-content">
-        {/* Address Section */}
-        <div className="contact-section">
-          <h2 className="section-title">Our Address</h2>
-          <p className="contact-info" style={{textAlign:"center"}}>
-            <strong >Comming Soon</strong><br />
-            
-          </p>
-        </div>
 
         {/* Get in Touch Section */}
         <div className="contact-section">
@@ -25,7 +17,9 @@ const Contact = () => {
           <p className="contact-info">
             Email: <a href="renukamakeup6@gmail.com"><FaEnvelope /> renukamakeup6@gmail.com</a><br />
             Phone: <a href="tel:+1234567890"><FaPhone /> 6301479701</a><br />
-            Phone: 9392633540
+            Phone: <a href="tel:+1234567890"><FaPhone /> 9392633540</a><br />
+
+           
           </p>
         </div>
 
@@ -38,6 +32,15 @@ const Contact = () => {
             <a href="https://twitter.com" className="social-icon" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           </div>
         </div>
+                {/* Address Section */}
+                <div className="contact-section">
+          <h2 className="section-title">Our Address</h2>
+          <p className="contact-info" style={{textAlign:"center"}}>
+            <strong >Comming Soon</strong><br />
+            
+          </p>
+        </div>
+
 
 
       </div>
