@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="/">
-          <div className="navbar-title">Beauty Parlor</div>
+          <img className="navbar-logo" src='images/logos.png'/>
         </a>
 
         <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>

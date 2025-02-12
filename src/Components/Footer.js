@@ -16,24 +16,26 @@ const Footer = () => {
         <div className="footer-section footer-contact">
           <h2 className="footer-title">Contact</h2>
           <ul>
-            <li>Email: <a href="mailto:beautyparlour@example.com">beautyparlour@example.com</a></li>
-            <li>Phone: <a href="tel:+1234567890">+123 456 7890</a></li>
+            <li>Email: <a href="mailto:beautyparlour@example.com">renukamakeup6@gmail.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">6301479701</a></li>
+            <li>Phone: <a href="tel:+1234567890"> 9392633540</a></li>
+
             <li>Address: 123 Beauty Street, Fashion City</li>
           </ul>
         </div>
 
-        <div className="footer-section footer-social">
+        <div className="footer-section footer-social" style={{textAlign:"center",alignItems:"center",justifyContent:"center"}}>
           <h2 className="footer-title">Follow Us</h2>
-          <div className="social-icons">
-            <a href="#" className="social-icon"><FaFacebook /></a>
-            <a href="#" className="social-icon"><FaInstagram /></a>
-            <a href="#" className="social-icon"><FaTwitter /></a>
-            <a href="#" className="social-icon"><FaLinkedin /></a>
+          <div className="social-icons" >
+            <a href="#" style={{color:"white",fontSize:"40px"}} ><FaFacebook  /></a>
+            <a href="#" style={{color:"white",fontSize:"40px"}}><FaInstagram /></a>
+            <a href="#" style={{color:"white",fontSize:"40px"}}><FaTwitter /></a>
+            <a href="#" style={{color:"white",fontSize:"40px"}}><FaLinkedin /></a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Beauty Parlour. All Rights Reserved.</p>
+        <p>&copy; 2024 Renu makeup works. All Rights Reserved.</p>
       </div>
     </footer>
   );

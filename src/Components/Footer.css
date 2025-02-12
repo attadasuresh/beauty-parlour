@@ -72,16 +72,18 @@
 .social-icons {
     display: flex;
     gap: 20px;
+    color: white;
+
 }
 
 .social-icon {
     font-size: 1.8rem;
-    color: #fff;
+    color: rgb(144, 14, 14);
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #ff7f50;
+    color: #1b9c53;
     transform: scale(1.2); /* Slight zoom on hover */
 }
 
@@ -124,6 +126,8 @@
 
     .social-icons {
         justify-content: center;
+    color: white;
+
     }
 
     .footer-bottom {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 
 import './Home.css'; // Import the separate CSS file
+import Footer from './Footer';
 const Home = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const [popupContent, setPopupContent] = useState({});
@@ -49,7 +50,7 @@ const Home = () => {
     <div className="home">
       <header className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to Our Beauty Parlor</h1>
+          <h1 className="hero-title">Welcome to Renu makeup works</h1>
           <p className="hero-text">
             Discover the best beauty services to enhance your natural beauty.
           </p>
@@ -60,7 +61,7 @@ const Home = () => {
       </header>
       <div className="home-container">
       <div className="welcome-section">
-        <h1 className="welcome-title">Welcome to Our Beauty Parlour</h1>
+        <h1 className="welcome-title">Welcome to Renu makeup works</h1>
         <p className="welcome-content">
           We offer a range of beauty services to help you look and feel your best. From haircuts to bridal services, we’ve got everything you need.
         </p>
@@ -73,11 +74,11 @@ const Home = () => {
     </div>
       <div className="info-card">
         <div className="info-card-image">
-          <img src="images/SKIN-TREATMENT.png" alt="Beauty Parlor" />
+          <img src="images/renu1.jpg" alt="Beauty Parlor" />
         </div>  
         
         <div className="info-card-content">
-          <h2 className="info-card-title">About Our Beauty Parlor</h2>
+          <h2 className="info-card-title">About Our Renu makeup works</h2>
           <p className="info-card-description">
             At our Beauty Parlor, we offer a range of beauty services tailored to meet your needs. Whether you're looking for a quick makeover or a complete spa experience, we have something for everyone. Our professional staff ensures that you leave feeling refreshed and beautiful.
           </p>
@@ -91,9 +92,22 @@ const Home = () => {
       <section className="services">
         <h2 className="section-title">Our Services</h2>
         <div className="service-cards">
+        <div className="card">
+            <img
+              src=" images/ranu4.jpg"
+              alt="Service 1"
+              className="card-image"
+            />
+            <h3 className="card-title">Bridal Makeup </h3>
+            <p className="card-description">Get the perfect Bridal Makeup for any occasion.</p>
+            <a href='/Products'>
+            <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
+
+            </a>
+          </div>
           <div className="card">
             <img
-              src="images/Organic-Hair-Salon-Treatments.png"
+              src="images/renu2.jpg"
               alt="Service 1"
               className="card-image"
             />
@@ -106,12 +120,12 @@ const Home = () => {
           </div>
           <div className="card">
             <img
-              src="images/image-20.png"
-              alt="Service 2"
+              src="images/renu3.jpg"
+              alt="Service 1"
               className="card-image"
             />
-            <h3 className="card-title">Facial Treatments</h3>
-            <p className="card-description">Rejuvenate your skin with our special facials.</p>
+            <h3 className="card-title">Party Makeup Styling</h3>
+            <p className="card-description">Get the perfect Party Makeup for any occasion.</p>
             <a href='/Products'>
             <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
 
@@ -119,20 +133,44 @@ const Home = () => {
           </div>
           <div className="card">
             <img
-              src="images/Screenshot-237.png"
-              alt="Service 3"
+              src="images/image.png"
+              alt="Service 1"
               className="card-image"
             />
-            <h3 className="card-title">Nail Art</h3>
-            <p className="card-description">Get creative and beautiful nails with our expert artists.</p>
+            <h3 className="card-title">Reception Styling</h3>
+            <p className="card-description">Get the perfect Reception for any occasion.</p>
             <a href='/Products'>
             <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
 
             </a>
           </div>
+          <div className="card">
+            <img
+              src="images/renu5.jpg"
+              alt="Service 2"
+              className="card-image"
+            />
+            <h3 className="card-title">Pre Wedding shoots</h3>
+            <p className="card-description">Pre Wedding shoots  with our special facials.</p>
+            <a href='/Products'>
+            <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
+
+            </a>
+          </div>
+          <div className="card">
+            <img
+              src="images/renu6.jpg"
+              alt="Service 3"
+              className="card-image"
+            />
+            <h3 className="card-title">Haidhi Styles</h3>
+            <p className="card-description">Get creative and beautiful Haidhi Styles expert artists.</p>
+            <a href='/Products'>
+            <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
+            </a>
+          </div>
         </div>
       </section>
-
       {/* Pop-up */}
       <div className={`popup ${isPopupVisible ? 'popup-show' : ''}`}>
         <div className="popup-content">
@@ -154,15 +192,10 @@ const Home = () => {
           <div className="mission">
             <h3 className="content-title">Our Mission</h3>
             <p>
-              At [Your Beauty Parlor Name], we believe that beauty is more than just appearance; it’s about how you feel. We are dedicated to enhancing your natural beauty and helping you feel your best, every day. Our highly trained professionals offer personalized services in a relaxing, luxurious environment.
+              At Renu makeup works, we believe that beauty is more than just appearance; it’s about how you feel. We are dedicated to enhancing your natural beauty and helping you feel your best, every day. Our highly trained professionals offer personalized services in a relaxing, luxurious environment.
             </p>
           </div>
-          <div className="story">
-            <h3 className="content-title">Our Story</h3>
-            <p>
-              Founded in [Year], [Your Beauty Parlor Name] started as a small beauty salon and has now grown into one of the most trusted and popular beauty parlors in [City]. With a passion for beauty and self-care, our founder, [Founder’s Name], created a space where clients could indulge in high-quality beauty treatments while being treated like family. Our services include haircuts, facials, manicures, pedicures, makeup, and massage treatments.
-            </p>
-          </div>
+
         </div>
       </section>
 
@@ -201,9 +234,8 @@ const Home = () => {
       <section className="contact-us">
         <h2 className="section-title">Get in Touch</h2>
         <p>For bookings or inquiries, please contact us through any of the following methods:</p>
-        <p><strong>Phone:</strong> [Phone Number]</p>
-        <p><strong>Email:</strong> [Email Address]</p>
-        <p><strong>Location:</strong> [Street Address, City, Country]</p>
+        <p><strong>Phone:</strong> 6301479701</p>
+        <p><strong>Email:</strong> renukamakeup6@gmail.com</p>
         <p>Follow us on Instagram, Facebook, and Twitter for the latest updates, promotions, and behind-the-scenes fun!</p>
       </section>
     </div>

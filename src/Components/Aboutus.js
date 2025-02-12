@@ -8,51 +8,52 @@ const Aboutus = () => {
       {/* Welcome Section */}
       <section className="intro">
         <div className="intro-text">
-          <h1>Welcome to [Your Beauty Parlor Name] – Where Beauty Meets Excellence!</h1>
+          <h1>Welcome to Renu makeup works – Where Beauty Meets Excellence!</h1>
           <p>
-            At [Your Beauty Parlor Name], we believe that every individual is beautiful and deserves to feel confident in their own skin. Our mission is to enhance your natural beauty with top-notch beauty treatments, exceptional services, and a relaxing, luxurious experience. We specialize in offering personalized beauty solutions for all your beauty needs.
+            At Renu makeup works, we believe that every individual is beautiful and deserves to feel confident in their own skin. Our mission is to enhance your natural beauty with top-notch beauty treatments, exceptional services, and a relaxing, luxurious experience. We specialize in offering personalized beauty solutions for all your beauty needs.
           </p>
         </div>
         <div className="intro-image">
-        <img src="images/Salon Dtp (Custom).png" alt="Your Alt Text" />
+        <img src="images/renu9.jpg" alt="Your Alt Text" />
 
         </div>
       </section>
       {/* Our Story */}
-      <section className="story">
-        <h2>Our Story</h2>
-        <p>
-          Founded in [Year], [Your Beauty Parlor Name] was born out of a passion for beauty and self-care. What started as a small, cozy beauty salon has now grown into a trusted and renowned beauty destination in [City or Area]. Our founder, [Founder’s Name], envisioned a space where people could indulge in high-quality services while receiving expert care and attention to detail.
-        </p>
-        <p>
-          From haircuts to facials, manicures to makeup, we provide a comprehensive range of beauty treatments that are tailored to your unique needs. Whether you're preparing for a special occasion, maintaining your everyday beauty routine, or simply treating yourself to some relaxation, we are here to help you feel your best.
-        </p>
-      </section>
+
 
       {/* Our Services */}
       <section className="services">
         <h2>Our Services</h2>
         <div className="service-cards">
           <div className="card">
-          <img src="images/Organic-Hair-Salon-Treatments.png" alt="Your Alt Text" />
-            <h3>Hair Services</h3>
-            <p>Haircuts, Styling, Coloring, Treatments, Extensions, and more.</p>
-            <button className="popup-btn" onClick={() => alert('Hair Services Popup')}>Learn More</button>
+          <video width="100%" height="auto" controls>
+  <source src="videos/VID_20250211_230600_410.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<h3> Services</h3>
+<button className="popup-btn" >Learn More</button>
+
+          </div>
+
+          <div className="card">
+          <video width="100%" height="auto" controls>
+  <source src="videos/VID_20250211_230554_482.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<h3> Services</h3>
+<button className="popup-btn" >Learn More</button>
+
           </div>
           <div className="card">
-          <img src="images/SKIN-TREATMENT.png" alt="Your Alt Text" />
+          <video width="100%" height="auto" controls>
+  <source src="videos/VID_20250211_230551_612.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<h3> Services</h3>
+<button className="popup-btn" >Learn More</button>
 
-            <h3>Facial Treatments</h3>
-            <p>Anti-aging, Acne, Hydrating, Brightening, and Microdermabrasion.</p>
-            <button className="popup-btn" onClick={() => alert('Facial Treatments Popup')}>Learn More</button>
           </div>
-          <div className="card">
-          <img src="images/Screenshot-237.png" alt="Your Alt Text" />
 
-            <h3>Nail Services</h3>
-            <p>Manicures, Pedicures, Nail Art, Extensions, and Gel Polish.</p>
-            <button className="popup-btn" onClick={() => alert('Nail Services Popup')}>Learn More</button>
-          </div>
         </div>
       </section>
 
@@ -82,7 +83,7 @@ const Aboutus = () => {
       <section className="cta">
         <h2>Join Us Today!</h2>
         <p>
-          At [Your Beauty Parlor Name], we are committed to helping you look and feel your best. Whether you’re looking for a quick touch-up or a complete makeover, we promise to provide you with the best beauty experience in town.
+          At Renu makeup works, we are committed to helping you look and feel your best. Whether you’re looking for a quick touch-up or a complete makeover, we promise to provide you with the best beauty experience in town.
         </p>
       </section>
     </div>

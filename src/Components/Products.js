@@ -28,34 +28,47 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: 'Hair Services',
-      image: 'images/Organic-Hair-Salon-Treatments.png',
-      description: 'Haircuts, Hair Styling, Hair Coloring, Hair Treatments, and more.',
+      title: 'Bridal Makeup',
+      image: 'images/image.png',
+      description: 'Get the perfect Bridal Makeup for any occasion.',
     },
     {
       id: 2,
-      title: 'Facial Treatments',
-      image: 'images/SKIN-TREATMENT.png',
-      description: 'Basic Facials, Anti-aging Facials, Acne Treatments, and more.',
+      title: 'Hair Styling',
+      image: 'images/renu2.jpg',
+      description: 'Get the perfect hairstyle for any occasion..',
     },
     {
       id: 3,
-      title: 'Nail Services',
-      image: 'images/Screenshot-237.png',
-      description: 'Manicures, Pedicures, Nail Art, Nail Extensions, and more.',
+      title: 'Party Makeup Styling',
+      image: 'images/renu3.jpg',
+      description: 'Get the perfect Party Makeup for any occasion..',
     },
     {
       id: 4,
-      title: 'Makeup Services',
-      image: 'images/Untitled-design-62.png',
-      description: 'Bridal Makeup, Party Makeup, Airbrush Makeup, and more.',
+      title: 'Reception Styling',
+      image: 'images/ranu4.jpg',
+      description: 'Get the perfect Reception for any occasion.',
     },
     {
       id: 5,
-      title: 'Massage Services',
-      image: 'images/pngtree-beauty-salon-series-beautician-comfortable-smooth-png-image_12558762.png',
-      description: 'Swedish Massage, Deep Tissue Massage, Aromatherapy Massage, and more.',
+      title: 'Pre Wedding shoots',
+      image: 'images/renu5.jpg',
+      description: 'Pre Wedding shoots  with our special facials',
     },
+    {
+      id: 6,
+      title: 'Haidhi Styles',
+      image: 'images/renu6.jpg',
+      description: 'Get creative and beautiful Haidhi Styles expert artists.',
+    },
+    {
+      id: 7,
+      title: 'Pre Wedding ',
+      image: 'images/renu8.jpg',
+      description: 'Pre Wedding shoots  with our special facials',
+    },
+    
   ];
 
   const handleOpenModal = (service) => {

@@ -13,10 +13,9 @@ const Contact = () => {
         {/* Address Section */}
         <div className="contact-section">
           <h2 className="section-title">Our Address</h2>
-          <p className="contact-info">
-            <strong>Beauty Parlour</strong><br />
-            123 Beauty Street, City, State<br />
-            Zip Code: 12345
+          <p className="contact-info" style={{textAlign:"center"}}>
+            <strong >Comming Soon</strong><br />
+            
           </p>
         </div>
 
@@ -24,31 +23,23 @@ const Contact = () => {
         <div className="contact-section">
           <h2 className="section-title">Get in Touch</h2>
           <p className="contact-info">
-            Email: <a href="mailto:info@beautyparlour.com"><FaEnvelope /> info@beautyparlour.com</a><br />
-            Phone: <a href="tel:+1234567890"><FaPhone /> +123 456 7890</a><br />
-            Fax: +123 456 7891
+            Email: <a href="renukamakeup6@gmail.com"><FaEnvelope /> renukamakeup6@gmail.com</a><br />
+            Phone: <a href="tel:+1234567890"><FaPhone /> 6301479701</a><br />
+            Phone: 9392633540
           </p>
         </div>
 
         {/* Social Media Section */}
         <div className="contact-section">
           <h2 className="section-title">Follow Us</h2>
-          <div className="social-icons">
-            <a href="https://facebook.com" className="social-icon" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <div className="social-icons " style={{alignItems:"center",justifyContent:"center"}}>
+            <a href="https://facebook.com"  className="social-icon" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
             <a href="https://instagram.com" className="social-icon" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://twitter.com" className="social-icon" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           </div>
         </div>
 
-        {/* Operating Hours Section */}
-        <div className="contact-section">
-          <h2 className="section-title">Operating Hours</h2>
-          <p className="contact-info">
-            Monday - Friday: 9:00 AM - 6:00 PM<br />
-            Saturday: 10:00 AM - 4:00 PM<br />
-            Sunday: Closed
-          </p>
-        </div>
+
       </div>
 
       {/* Footer Section */}
