@@ -29,7 +29,7 @@ const Services = () => {
     {
       id: 1,
       title: 'Bridal Makeup',
-      image: 'images/image.png',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.17.35 PM.jpeg',
       description: 'Get the perfect Bridal Makeup for any occasion.',
     },
     {
@@ -59,8 +59,32 @@ const Services = () => {
     {
       id: 6,
       title: 'Haidhi Styles',
-      image: 'images/renu6.jpg',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.17.34 PM copy.jpeg',
       description: 'Get creative and beautiful Haidhi Styles expert artists.',
+    },
+    {
+      id: 7,
+      title: 'Pre Wedding ',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.16.35 PM.jpeg',
+      description: 'Pre Wedding shoots  with our special facials',
+    },
+    {
+      id: 7,
+      title: 'Pre Wedding ',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.16.37 PM.jpeg',
+      description: 'Pre Wedding shoots  with our special facials',
+    },
+    {
+      id: 7,
+      title: 'Pre Wedding ',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.16.40 PM.jpeg',
+      description: 'Pre Wedding shoots  with our special facials',
+    },
+    {
+      id: 7,
+      title: 'Pre Wedding ',
+      image: 'images/WhatsApp Image 2025-02-13 at 10.16.38 PM.jpeg',
+      description: 'Pre Wedding shoots  with our special facials',
     },
     {
       id: 7,

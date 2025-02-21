@@ -18,8 +18,6 @@ const Contact = () => {
             Email: <a href="renukamakeup6@gmail.com"><FaEnvelope /> renukamakeup6@gmail.com</a><br />
             Phone: <a href="tel:+1234567890"><FaPhone /> 6301479701</a><br />
             Phone: <a href="tel:+1234567890"><FaPhone /> 9392633540</a><br />
-
-           
           </p>
         </div>
 

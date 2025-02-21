@@ -133,7 +133,7 @@ const Home = () => {
           </div>
           <div className="card">
             <img
-              src="images/image.png"
+              src="images/WhatsApp Image 2025-02-13 at 10.17.34 PM (1).jpeg"
               alt="Service 1"
               className="card-image"
             />
@@ -159,11 +159,11 @@ const Home = () => {
           </div>
           <div className="card">
             <img
-              src="images/renu6.jpg"
+              src="images/WhatsApp Image 2025-02-13 at 10.17.34 PM copy.jpeg"
               alt="Service 3"
               className="card-image"
             />
-            <h3 className="card-title">Haidhi Styles</h3>
+            <h3 className="card-title">Haldi Styles</h3>
             <p className="card-description">Get creative and beautiful Haidhi Styles expert artists.</p>
             <a href='/Products'>
             <button className="card-button" onClick={() => openPopup('service2')}>Learn More</button>
